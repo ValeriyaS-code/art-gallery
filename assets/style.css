@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-1 {
+    display: flex;
+}
+
+.black-square {
+    width: 28rem;
+    height: 50rem;
+    background-color: red;
+}
+
+.section-content {
+    width: 17.8rem;
+}
