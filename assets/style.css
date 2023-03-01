@@ -2,16 +2,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .section-1 {
     display: flex;
+    position: relative;
+    width: 100%;
 }
 
-.black-square {
-    width: 28rem;
-    height: 50rem;
-    background-color: red;
+.black-square-div {
+    background-color: black;
+    width: 35%;
 }
 
-.section-content {
-    width: 17.8rem;
+.black-square-div h1 {
+    color: white;
+    padding-top: 11.8rem;
+    padding-left: 10.3rem;
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 6.1rem;
+    line-height: 5.5rem;
+    width: 39rem;
+    text-transform: uppercase;
+}
+
+.section-1 img{
+    color: black;
+    mix-blend-mode: difference;
+}
+
+.paragraph-div {
+    width: 33.33%;
 }
