@@ -10,8 +10,8 @@
 }
 
 .black-square-div {
-    background-color: black;
-    width: 35%;
+    background-color: #151515;
+    width: 32%;
 }
 
 .black-square-div h1 {
@@ -28,10 +28,60 @@
 }
 
 .section-1 img{
-    color: black;
+    color: #151515;
     mix-blend-mode: difference;
+    z-index: -1;
+    display: block;
 }
 
 .paragraph-div {
-    width: 33.33%;
+    position: absolute;
+    padding-top: 11.9rem;
+    padding-left: 57.8rem;
+}
+
+.paragraph-div p {
+    width: 350px;
+    color: #444444;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.paragraph-div .location-link {
+    margin-top: 2.5rem;
+    width: 260px;
+    height: 72px;
+    background-color: #151515;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 3.64px;
+    margin-bottom: 120px;
+    padding-left: 32px;
+    transition: background-color 500ms ease-out;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.paragraph-div .location-link:hover {
+    background-color: #D5966C;
+}
+
+.location-link svg {
+    background-color: #D5966C;
+    height: 72px;
+    width: 56px;
+    transition: background-color 500ms ease-out;
+    padding: 1.4rem;
+}
+
+.location-link svg:hover {
+    background-color: #151515;
 }
